@@ -60,9 +60,11 @@ function App() {
 
 return (
     <>
-      <Container>
-        <Row className='row'> 
-          <Col md="6" className='shadow py-5 rounded'>
+      <Container className='mt-5'>
+        <Row> 
+          <Col md="6">
+
+              <div className='shadow p-4 rounded'>
 
               <h1 className='mt-5 text-center text-danger'>CRUD</h1>
 
@@ -118,6 +120,7 @@ return (
                   </Button>
               </Modal.Footer>
             </Modal>
+              </div>
           </Col>
         </Row>
       </Container>
